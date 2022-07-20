@@ -1,0 +1,8 @@
+
+dic1={1: ['Jean Castro'], 2: ['Lula Powell'], 3: ['Brian Howell'], 4: ['Lynne Foster'], 5: ['Zachary Simon']}
+g={}
+for i in dic1:
+    for j in dic1[i]:
+        g.update({i:j})
+print(g)
+    
